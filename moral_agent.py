@@ -11,8 +11,6 @@ from langchain.prompts.chat import (
 )
 from langchain.schema import AIMessage, HumanMessage, SystemMessage
 
-# OPENAI_API_KEY=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
-
 
 class MoralAgent():
     def __init__(self, chat, harms, rollout_examples):
